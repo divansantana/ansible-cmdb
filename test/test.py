@@ -1,6 +1,7 @@
 import sys
 import unittest
-import imp
+# https://github.com/fboender/ansible-cmdb/issues/259
+# import imp
 import os
 
 sys.path.insert(0, os.path.realpath('../lib'))
